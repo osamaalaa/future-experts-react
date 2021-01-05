@@ -652,11 +652,11 @@ p {
 }
 
 .text-warning {
-  color: #ff8057 !important;
+  color: #0A46E9 !important;
 }
 
 .bg-warning {
-  background-color: #ff8057 !important;
+  background-color: #0A46E9 !important;
 }
 
 .text-danger {
@@ -746,11 +746,31 @@ p {
 .bg-overlay.op-75 {
   opacity: 0.75;
 }
+.width-bgimg{
+  max-width: 141%;
+    height: auto;
+}
+.boxed {
+  top: 629px;
+left: 0px;
+width: 832px;
+height: 160px;
+background: #0A46E9 0% 0% no-repeat padding-box;
+opacity: 1;
+}
 
 .font-weight-medium {
   font-weight: 500;
 }
-
+.future-bg{
+  width: 372px;
+height: 94px;
+text-align: left;
+font: normal normal bold 75px/80px Merriweather;
+letter-spacing: 0px;
+color: #2A2526;
+text-transform: capitalize;
+}
 .line-height-1_6 {
   line-height: 1.6;
 }

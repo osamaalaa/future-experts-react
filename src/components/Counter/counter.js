@@ -19,22 +19,7 @@ class Counter extends Component {
     render() {
         return (
             <React.Fragment>
-            <section className="section counter-bg" style={{background : `url(${counterbg}) center center`}}>
-                <div className="bg-overlay op-75"></div>
-                <Container>
-                    <Row className="justify-content-center">
-                        <Col lg={6}>
-                            <div className="text-center mb-5">
-                                <h2 className="font-weight-normal text-white mb-2">We've Completed</h2>
-                                <h5 className="font-weight-normal text-white-70">More Than 1000+ Work Successfully</h5>
-                            </div>
-                        </Col>
-                    </Row>
-                    <Row id="counter">
-                        <CounterBox counters={this.state.counters} />
-                    </Row>
-                </Container>
-            </section>
+            
             </React.Fragment>
         );
     }

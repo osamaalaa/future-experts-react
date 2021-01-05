@@ -31,10 +31,10 @@ class FeatureBox extends Component {
                     <Row key={key} className="align-items-center mt-5">
                         <Col md={6}>
                             <div className="features-box mb-4">
-                                <div className="features-icon my-4">
+                                {/* <div className="features-icon my-4">
                                     <i className="mdi mdi-account-group"></i>
-                                </div>
-                                <h5 className="text-dark font-weight-normal mb-3 pt-3">{feature.title}</h5>
+                                </div> */}
+                                <h5 className="text-dark font-weight-normal mb-3 pt-3" Style="width: 445px;height: 50px;text-align: left;font: normal normal bold 40px/50px Merriweather;letter-spacing: 0px;color: #2A2526;text-transform: capitalize;opacity: 1;">{feature.title}</h5>
                                 <p className="text-muted mb-3 f-15">{feature.desc}</p>
                                 <Link to={feature.link} className="f-16 text-warning">Read More <span className="right-icon ml-2">&#8594;</span></Link>
                             </div>

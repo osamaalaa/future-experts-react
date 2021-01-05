@@ -4,7 +4,7 @@ import { AvForm, AvField } from 'availity-reactstrap-validation';
 
 //Import Section Title
 import SectionTitle from "../common/section-title";
-
+import feature2 from "../../assets/images/Traveling-rafiki.svg";
 class GetInTouch extends Component {
     render() {
         return (
@@ -12,32 +12,14 @@ class GetInTouch extends Component {
                 <section className="section">
                     <Container>
                         <SectionTitle
-                            title1="Get In "
-                            title2="Touch"
-                            desc="Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero pulvinar hendrerit id lorem."
+                            title1="Get in touch "
+                            title2="With Us"
+                            desc="Call us at 19 509"
                         />
 
                         <Row>
                             <Col lg={4}>
-                                <div className="contact-address">
-                                    <h4 className="text-dark mb-4">Contact Info</h4>
-                                    <p className="text-muted f-15">Sed perspici unade omnis natus error sit voluptatem accusantium doloremque minus cumque.</p>
-                                    <p className="text-muted f-15 mb-4">Et harum quidem rerum facilis est et expedita sit distinctio at libero.</p>
-                                </div>
-                                <Row>
-                                    <Col md={6}>
-                                        <div className="contact-address">
-                                            <h5 className="text-dark mb-3 f-16">Address - A</h5>
-                                            <p className="text-muted f-15">3165 Roosevelt Wilson Riverside, CA 92507</p>
-                                        </div>
-                                    </Col>
-                                    <Col md={6}>
-                                        <div className="contact-address">
-                                            <h5 className="text-dark mb-3 f-16">Address - B</h5>
-                                            <p className="text-muted f-15">1121 Bombardier Way Southfield, MI 48075</p>
-                                        </div>
-                                    </Col>
-                                </Row>
+                             <img src={feature2} alt="" className="img-fluid d-block mx-auto"/>
                             </Col>
 
                             <Col lg={{size:7, offset:1}}>
@@ -101,7 +83,8 @@ class GetInTouch extends Component {
                                         </Row>
                                         <Row>
                                             <Col sm={12}>
-                                                <Button type="submit" id="submit" name="send" color="warning">Send Message <i className="mdi mdi-telegram ml-2"></i></Button>
+                                                <Button type="submit" id="submit" name="send" color="" Style="background: #80C93D 0% 0% no-repeat padding-box;
+    color: white;">Send Message <i className="mdi mdi-telegram ml-2"></i></Button>
                                                 <div id="simple-msg"></div>
                                             </Col>
                                         </Row>

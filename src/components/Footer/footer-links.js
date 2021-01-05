@@ -8,7 +8,7 @@ class FooterLinks extends Component {
                         <Row className="mt-5">
                             <Col md={12}>
                                 <div className="text-center text-muted">
-                                    <p className="mb-0 f-15">2020 © Deoxa. Design by Themesdesign</p>
+                                    <p className="mb-0 f-15">2020 © Future Experts. Developed By Spiritude LTD</p>
                                 </div>
                             </Col>
                         </Row>

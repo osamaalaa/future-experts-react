@@ -12,8 +12,10 @@ import {
 import ScrollspyNav from "./scrollSpy";
 
 //Import Images
-import logolight from "../../assets/images/logo-light.png";
-import logodark from "../../assets/images/logo-dark.png";
+// import logolight from "../../assets/images/logo-light.png";
+import logolight from "../../assets/images/future-logo.svg";
+import logodark from "../../assets/images/future-logo.svg";
+import localizationIcon from "../../assets/images/icon/lang-ic.svg";
 
 class NavbarPage extends Component {
     constructor(props){
@@ -42,7 +44,7 @@ class NavbarPage extends Component {
                                             {
                                                 this.props.imglight === true ?
                                                     <img src={logolight} alt="" height="21" />
-                                                :   <img src={logodark} alt="" height="21" />
+                                                :   <img src={logodark} alt="" height="35" />
                                             }
                                         </NavbarBrand>
                                         <NavbarToggler onClick={this.toggle} ><i className="mdi mdi-menu"></i></NavbarToggler>
@@ -63,7 +65,7 @@ class NavbarPage extends Component {
                                             ))} 
                                         </Nav>
                                             <div className="call-no">
-                                                <NavLink href="#" className={this.props.isLight === true ? "text-white" : "text-warning"}><i className="mdi mdi-phone mr-1"></i> +00 1234 5678 90</NavLink>
+                                                <NavLink href="#" className={this.props.isLight === true ? "text-white" : "text-warning"} ><img src={localizationIcon} alt="" height="21" /> عربي</NavLink>
                                             </div>
                                     </ScrollspyNav>
                                     </Collapse>

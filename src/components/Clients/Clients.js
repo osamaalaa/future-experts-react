@@ -26,23 +26,7 @@ class Clients extends Component {
         return (
             <React.Fragment>
                 <section className="section bg-light" id="clients">
-                    <Container>
-                    <SectionTitle
-                            title1="Our "
-                            title2="Clients"
-                            desc="Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero pulvinar hendrerit id lorem."
-                        />
-                        <Row>
-                            <Col lg={4}>
-                                <h3 className="font-weight-normal mt-3 line-height-1_4">Some Words From Our <span className="font-weight-medium text-warning">Happy Clients </span></h3>
-                                <div className="testi-border my-4"></div>
-                                <p className="text-muted">Itaque earum rerum tenetur a sapiente delectus ut aut reiciendis voluptatibus maiores alias consequatur.</p>
-                            </Col>
-                            <Col lg={8}>
-                                <ClientsSlider clients={this.state.clients} />
-                            </Col>
-                        </Row>
-                    </Container>
+                    
                 </section>
             </React.Fragment>
         );

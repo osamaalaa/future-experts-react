@@ -643,11 +643,11 @@ p {
 }
 
 .text-warning {
-  color: #ff8057 !important;
+  color: #0A46E9 !important;
 }
 
 .bg-warning {
-  background-color: #ff8057 !important;
+  background-color: #0A46E9 !important;
 }
 
 .text-danger {
@@ -1258,7 +1258,7 @@ p {
 }
 
 .features-box .features-icon {
-  background: #ff8057;
+  background: #0A46E9;
   display: inline-block;
   height: 50px;
   width: 50px;

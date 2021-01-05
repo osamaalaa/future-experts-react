@@ -21,7 +21,7 @@ class Section extends Component {
                             <Col lg={6}>
                                 <h1 className="text-dark hero-4-title font-weight-light line-height-1_4 mb-4">Grow With Your Business & Be <span className="font-weight-normal">The Best Entrepreneur.</span></h1>
                                 <p className="text-muted">At vero eos et accusamus et iusto odio dignissimos ducimus a qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint cupiditate.</p>
-                                <button className="btn btn-warning mt-4">Learn More <span className="ml-2 right-icon">&#8594;</span></button>
+                                <button className="btn btn-warning mt-4">Learn More <span className="ml-2 right-">&#8594;</span></button>
                             </Col>
                             <Col lg={{size:4, offset:2}}>
                                 <div className="hero-login-form mx-auto bg-white p-4 rounded mt-5 mt-lg-0">

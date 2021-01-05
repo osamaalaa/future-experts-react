@@ -1,6 +1,7 @@
 import React, { Component, Suspense } from 'react';
 
 const NavbarPage = React.lazy(() => import('../../components/Navbar/Navbar_Page'));
+const Section0 = React.lazy(() => import('./Section0'));
 const Section = React.lazy(() => import('./Section'));
 const Service = React.lazy(() => import('../../components/Service/service'));
 const About = React.lazy(() => import('../../components/About/about'));
@@ -17,11 +18,12 @@ class Layout1 extends Component {
         super(props);
         this.state = {
             navItems : [
-                { id: 1 , idnm : "home", navheading: "Home" },
-                { id: 2 , idnm : "services", navheading: "Services" },
-                { id: 3 , idnm : "about", navheading: "About" },
-                { id: 4 , idnm : "features", navheading: "Features" },
-                { id: 5 , idnm : "clients", navheading: "Clients" },
+                { id: 1 , idnm : "home-main", navheading: "" },
+                { id: 2 , idnm : "home", navheading: "Trip information" },
+                { id: 3 , idnm : "services", navheading: "Trip Programs" },
+                { id: 4 , idnm : "features", navheading: "About" },
+                { id: 5 , idnm : "features", navheading: "blog" },
+                { id: 6 , idnm : "clients", navheading: "Contact" },
             ],
             pos : document.documentElement.scrollTop,
             imglight : false,
@@ -69,7 +71,7 @@ class Layout1 extends Component {
 
                     {/* Importing Navbar */}
                     <NavbarPage navItems={this.state.navItems} navClass={this.state.navClass} imglight={this.state.imglight} />
-
+                    <Section0 />
                     {/* Importing section */}
                     <Section/>
 
@@ -77,7 +79,7 @@ class Layout1 extends Component {
                     <Service/>
 
                     {/* Importing about us */}  
-                    <About/>
+                    {/* <About/> */}
 
                     {/* Importing feature */}
                     <Feature/>
@@ -92,7 +94,7 @@ class Layout1 extends Component {
                     <GetInTouch/>
 
                     {/* Importing subscribe */}
-                    <Subscribe/>
+                    {/* <Subscribe/> */}
                     
                     {/* Importing footer */}
                     <Footer/>

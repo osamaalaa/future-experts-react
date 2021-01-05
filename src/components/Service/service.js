@@ -10,12 +10,12 @@ class Service extends Component {
         super(props);
         this.state = {
             services : [
-                { icon : "pe-7s-headphones service-icon", title : "Awesome Support", desc : "Et harum quidem rerum facilis expedita distinctio nam libero tempore cum quibusdam nobis." },
-                { icon : "pe-7s-tools service-icon", title : "Solutions Business", desc : "Et harum quidem rerum facilis expedita distinctio nam libero tempore cum quibusdam nobis." },
-                { icon : "pe-7s-display1 service-icon", title : "Digital Design", desc : "Et harum quidem rerum facilis expedita distinctio nam libero tempore cum quibusdam nobis." },
-                { icon : "pe-7s-cup service-icon", title : "Goal Business", desc : "Et harum quidem rerum facilis expedita distinctio nam libero tempore cum quibusdam nobis." },
-                { icon : "pe-7s-light service-icon", title : "Branding Identity", desc : "Et harum quidem rerum facilis expedita distinctio nam libero tempore cum quibusdam nobis." },
-                { icon : "pe-7s-graph1 service-icon", title : "Dynamic Growth", desc : "Et harum quidem rerum facilis expedita distinctio nam libero tempore cum quibusdam nobis." },
+                { icon : "pe-7s-headphones service-icon", title : "Day 1", title2 : "Friday, 23 jan 2021",desc : "Et harum quidem rerum facilis expedita distinctio nam libero tempore cum quibusdam nobis." },
+                { icon : "pe-7s-tools service-icon", title : "Day 2",title2 : "Saturday, 24 jan 2021", desc : "Et harum quidem rerum facilis expedita distinctio nam libero tempore cum quibusdam nobis." },
+                { icon : "pe-7s-display1 service-icon", title : "Day 3",title2 : "Sunday, 25 jan 2021", desc : "Et harum quidem rerum facilis expedita distinctio nam libero tempore cum quibusdam nobis." },
+                // { icon : "pe-7s-cup service-icon", title : "Goal Business", desc : "Et harum quidem rerum facilis expedita distinctio nam libero tempore cum quibusdam nobis." },
+                // { icon : "pe-7s-light service-icon", title : "Branding Identity", desc : "Et harum quidem rerum facilis expedita distinctio nam libero tempore cum quibusdam nobis." },
+                // { icon : "pe-7s-graph1 service-icon", title : "Dynamic Growth", desc : "Et harum quidem rerum facilis expedita distinctio nam libero tempore cum quibusdam nobis." },
             ]
         }
     }
@@ -27,8 +27,8 @@ class Service extends Component {
                     <Container>
                         <SectionTitle
                             title1="Our "
-                            title2="Service"
-                            desc="Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero pulvinar hendrerit id lorem."
+                            title2="Trip Program"
+                            
                         />
 
                         <Row>
